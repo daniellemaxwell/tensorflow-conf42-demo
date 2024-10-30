@@ -1,0 +1,42 @@
+main {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#file-upload-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+  border: 2px solid black;
+  padding: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: large;
+  font-weight: bold;
+}
+
+#image-upload {
+  display: none;
+}
+
+#upload-icon {
+  width: 30px;
+}
+
+#image-container {
+  width: 25%;
+  margin-top: 25px;
+}
+
+#image-container>img {
+  width: 100%;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: large;
+}
